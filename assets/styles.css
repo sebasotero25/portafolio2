@@ -1,0 +1,336 @@
+:root {
+    font-family: 'Rubik', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h2, p{
+    color: #fafafa;
+    padding: 2rem;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body{
+    margin: 0;
+}
+/* Intro */
+.intro {
+    min-width: 100vh;
+    background-color: #020403;
+}
+
+
+nav {
+    background-color: transparent;
+}
+
+nav a, .icon-menu {
+    color: #ADADAD;
+    padding: 5px 40px;
+    display: inline-block;
+}
+
+.icon-menu {
+    color: white;
+}
+
+.fa-linkedin-in, .fa-instagram, .fa-twitter {
+color: white;
+padding: 20px 25px;
+}
+/* Midle page icons */
+.fa-drafting-compass {
+    color: #fafafa;
+    
+
+}
+
+.fa-database {
+    color: #fafafa;
+}
+
+
+
+.fa-window-maximize, .fa-mobile {
+color: #fafafa;
+/* padding-bottom: 2rem; */
+}
+
+
+
+
+
+
+.text-right {
+    text-align: right;
+    
+}
+
+nav {
+    max-height: 100vh;
+    transition: max-height 1s;
+}
+
+.hidden {
+    max-height: 0;
+    overflow: hidden;
+}
+
+
+/* Vectores SVG */
+.vectoruno svg {
+    /* padding-top: 50px; */
+    width:100%;
+    height:auto;
+    position: absolute;
+}
+
+.vectordos svg {
+    width:100%;
+    height:100%;
+    line-height: 0;
+}
+
+.vectortres svg{
+  
+ margin-right: -600px;
+}
+
+
+
+
+.centro {
+    text-align: center;
+    justify-content: center;
+
+}
+.nombre{
+    color: #ADADAD;
+    font-size: 40px;
+}
+
+.carrera{
+    color: white;
+    font-size: 85px;
+}
+
+.container img {
+    display: flex;
+    margin: auto;
+    padding: 5% 0 5% 0;
+    position: relative;
+    width: 20%;
+    height: auto;
+}
+
+.aboutme {
+    color: #ffff;
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+
+.aboutme-text {
+    color:#ffff;
+    margin:0 50px 50px 0;
+    font-size: 15px;
+    
+}
+
+
+/* Diechu section */
+.container-por{
+    color: #ffff;
+    text-align: center;
+}
+.container-por img{
+    width: 20%;
+    padding: 15px;
+   
+}
+.icon-contact{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+    border-radius: 50%;
+    text-align: center;
+    margin: 5px;
+    color: ADADAD;
+    border: solid #ADADAD;
+    padding: 20px;
+
+}
+.container-cont{
+    color: #ffff;
+    text-align: center;
+
+
+
+}
+.separador{
+    padding-left: 140px;
+}
+
+/* Media queries */
+
+@media (min-width: 0px) and (max-width: 768px){
+
+    .row {
+        display: flex;
+    }
+    .col-md-6 {
+        width: 50%;
+        text-align: center;
+        padding: 10px;
+        
+        
+    }
+    
+    .container-por img{
+        width: 60%;
+        padding: 15px;
+    }
+    
+
+    .vectortres {
+        width: 50%;
+    }
+
+    nav {
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav a {
+        color: white;
+    }
+    nav li {
+        display: inline-block;
+    }
+
+    
+    
+
+}
+
+@media(min-width: 768px) {
+    .row {
+        display: flex;
+    }
+     .col-md-6 {
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+        
+    } 
+    #main-menu {
+        overflow: hidden;
+    }
+}
+
+
+
+/* Desktop */
+@media(min-width: 992px) {
+    .lg-hidden {
+        display: none;
+    }
+    #main-menu {
+        max-height: none;
+    }
+    .container img {
+
+    }
+    nav {
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav a {
+        color: white;
+    }
+    nav li {
+        display: inline-block;
+    }
+}
+
+
+
+
+/* .col-7 {
+    background-color: red;
+    width: 60%;
+   padding: 1rem;
+
+}
+
+.col-5 {
+    background-color: red;
+    width: 40%;
+    padding: 1rem;
+} */
+
+
+
+.main-experiencia {
+   padding-bottom: 5rem;
+
+} 
+/* 
+.expe-dates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    color: #fafafa;
+}  */
+
+
+.col-8 {
+    width: 66.66%;
+    border-bottom:solid #ADADAD;
+    color: #fafafa;
+    display: flex;
+    padding-left: 4rem;
+    
+    
+    
+
+}
+
+.col-5 {
+    width: 41.66%;
+    color: #fafafa;
+    text-align: center;
+    padding-bottom: 1rem;
+    
+    
+}
+
+.col-3 {
+    width: 25%;
+    color: #fafafa;
+    padding-bottom: 1rem;
+}
+
+.col-2 {
+    width: 16.66%;
+    color: #fafafa;
+    
+}
+
+.habilidades {
+    padding-bottom: 5rem;
+}
